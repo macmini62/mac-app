@@ -1,0 +1,25 @@
+body{
+    border: 1px solid red;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.page-body{
+    border: 1px solid blue;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+
+.profile-img{
+    border: 1px solid green;
+    width: 300px;
+    height: auto;
+}
+
+.profile-img img{
+    width: 300px;
+}
