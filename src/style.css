@@ -11,6 +11,9 @@ body{
     justify-content: center;
     height: 100vh;
     position: relative;
+    color: #bfbdbd;
+    background-image: url("../src/images/black-frame-with-copy-space-top-view.jpg");
+    background-size: contain;
 }
 
 .page-body{
@@ -22,7 +25,7 @@ body{
     flex-direction: column;
     row-gap: 1%;
     border-radius: 20px;
-    background-color: #822222;
+    background-color: #1c1b1b;
 }
 
 .profile-img{
@@ -38,6 +41,7 @@ body{
 
 .my-details{
     height: 10%;
+    color: #ffc4c4;
 }
 .my-details h2, h4, p{
     margin: 10px 0 0 0;
@@ -59,23 +63,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
+    background-color: #c73836;
+    border-radius: 10px;
 }
+
 .linkedin-acc img, .email-acc img{
     width: 30%;
 }
-.linkedin-acc a, .email-acc a{
-    text-decoration: none;
-    color: #000;
-}
+
 .linkedin-acc:hover, .email-acc:hover{
     cursor: pointer;
+    box-shadow: 0px 0px 8px 3px rgba(166,0,0,0.70);
+    scale: 1.05;
 }
 
 .content-body{
-    height: 35%;
+    height: 40%;
     position: absolute;
-    bottom: 15%;
+    bottom: 10%;
 }
 .my-about h3, .my-interests h3{
     margin: 0;
@@ -89,12 +94,14 @@ body{
 
 .page-footer{
     position: absolute;
-    bottom: 2%;
+    bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 5%;
+    height: 10%;
     width: 100%;
+    border-radius: 0 0 20px 20px;
+    background-color: #c73836;
 }
 .page-footer a{
     width: 20%;
@@ -103,12 +110,12 @@ body{
     align-items: center;
 }
 .page-footer img{
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 60%;
+}
+.page-footer img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.65);
+    scale: 1.1;
 }
 
-.twitter-icon{
-    opacity: 0.5;
-    color: #338ccc;
-    border-radius: 5px;
-}

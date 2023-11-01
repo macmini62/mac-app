@@ -5,7 +5,7 @@ export default function MyDetails(){
         <div className="my-details">
             <h2>Victor Kang'acha</h2>
             <h4>Frontend Developer</h4>
-            <p>My about website</p>
+            <p>Haaaaaa!! (-_-)</p>
         </div>
     )
 }
