@@ -11,7 +11,7 @@ export default function ContentBody(){
                     This is just a small portfolio about myself.<br/>
                     First is to thank you for reading this small self-introduction
                     page.<br/>
-                    I am a frontend software engineer who is determined to deliver the best 
+                    I am a software engineer who is determined to deliver the best 
                     out of any project. My projects are of well thought and creative ideas that 
                     differ from the rest.<br/>
                 </p>
